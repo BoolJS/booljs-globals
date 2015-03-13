@@ -1,0 +1,28 @@
+{
+  "name": "booljs-globals",
+  "version": "0.0.1",
+  "description": "Bool MVC Framework - Global Objects",
+  "license": "GPL-3.0",
+  "author": {
+    "name": "Pablo Andrés Dorado Suárez",
+    "email": "pandres95@boolinc.co",
+    "url": "http://pandres95.boolinc.co"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha --recursive test",
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/boolinc/booljs-core"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1"
+  },
+  "dependencies": {
+    "object-injector": "0.0.2",
+    "q": "^1.2.0",
+    "tracer": "^0.7.3",
+    "underscore": "^1.8.2"
+  }
+}
