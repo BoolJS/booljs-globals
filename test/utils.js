@@ -3,7 +3,7 @@
 var expect = require('expect.js');
 require('..');
 
-define('Utilities', function(){
+describe('Utilities', function(){
 
     it('Loads included utils', function(done){
         expect(log).to.be.ok();

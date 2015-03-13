@@ -3,7 +3,7 @@
 var expect = require('expect.js');
 require('..');
 
-define('Modules', function(){
+describe('Modules', function(){
 
     it('Loads included modules', function(done){
         expect(_).to.be.ok();
